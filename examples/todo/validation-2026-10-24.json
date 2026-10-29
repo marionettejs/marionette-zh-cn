@@ -1,0 +1,59 @@
+{
+  "startedAt": "2026-10-24T06:07:50.290Z",
+  "node": "v24.19.0",
+  "checks": [
+    {
+      "name": "Empty initial state: 0 / 0 and zero rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Ordinary browser Enter adds each of three synthetic tasks exactly once",
+      "status": "PASS"
+    },
+    {
+      "name": "Complete one task: 1 / 3",
+      "status": "PASS"
+    },
+    {
+      "name": "All, active, completed filters retain global 1 / 3 counts and the same draft node/value",
+      "status": "PASS"
+    },
+    {
+      "name": "Twelve completion/reversal cycles retain counts and unsent draft",
+      "status": "PASS"
+    },
+    {
+      "name": "Reversal/completion removes filtered rows, keeps draft, and focuses filter",
+      "status": "PASS"
+    },
+    {
+      "name": "Adding with completed filter selected updates total without showing active task",
+      "status": "PASS"
+    },
+    {
+      "name": "Empty and whitespace Enter submissions do not create tasks",
+      "status": "PASS"
+    },
+    {
+      "name": "Synthetic composition guards block Enter and form submission; post-composition ordinary Enter adds once",
+      "status": "PASS"
+    },
+    {
+      "name": "Synthetic markup is rendered as literal task text",
+      "status": "PASS"
+    },
+    {
+      "name": "Narrow 375px viewport has no horizontal document overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "No browser JavaScript/console errors or external network requests",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "browser": "154.0.8037.57",
+  "playwright": "1.63.0",
+  "status": "PASS",
+  "finishedAt": "2026-10-24T06:07:52.311Z"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "marionette-companion-todo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node checks.mjs"
+  },
+  "dependencies": {
+    "@mnjs/adapters": "5.0.0",
+    "@mnjs/radio": "5.0.0",
+    "@mnjs/utils": "5.0.0",
+    "lit-html": "3.3.3",
+    "marionette": "5.0.0"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "vite": "8.3.0"
+  }
+}
